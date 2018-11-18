@@ -1,4 +1,6 @@
 # [Coursera Machine Learning MOOC by Andrew Ng](https://www.coursera.org/learn/machine-learning) 
+# Comment by @filipmihal
+As an extension of my AP Computer Science A course, I took the ML course from Coursera. This repository contains all my work related to the course. You can find here **already solved** exercises. 
 # Python Programming Assignments
 
 ![](machinelearning.jpg)
