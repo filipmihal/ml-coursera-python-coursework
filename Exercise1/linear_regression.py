@@ -6,10 +6,6 @@ import numpy as np
 
 # Plotting library
 from matplotlib import pyplot
-from mpl_toolkits.mplot3d import Axes3D  # needed to plot 3-D surfaces
-
-# library written for this exercise providing additional functions for assignment submission, and others
-import utils
 
 # Read comma separated data
 data = np.loadtxt(os.path.join('Data', 'ex1data1.txt'), delimiter=',')
