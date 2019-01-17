@@ -7,7 +7,7 @@ import numpy as np
 # Plotting library
 from matplotlib import pyplot
 
-data = np.genfromtxt('beer_consumption_data.csv', delimiter=',')
+data = np.genfromtxt('beer_consumption_data.csv', delimiter=',', skip_header=True)
 TEMP_MED, TEMP_MIN, TEMP_MAX, PRECIPITATION, WEEKEND, CONSUMPTION = data[:, 1], data[:, 2], data[:, 3], data[:, 4], data[:, 5], data[:, 6]
 
 M = CONSUMPTION.size  # number of training examples
@@ -47,8 +47,8 @@ def plot_data(x, y):
     """
     fig = pyplot.figure()
     pyplot.plot(x, y, 'ro', ms=10, mec='k')
-    pyplot.ylabel('Profit in $10,000')
-    pyplot.xlabel('Population of City in 10,000s')
+    pyplot.ylabel('consumption of beer in liters')
+    pyplot.xlabel('Median temperature in °C')
 
 
 def gradient_descent(x, y, theta, alpha, num_iterations):
