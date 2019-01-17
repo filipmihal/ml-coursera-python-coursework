@@ -1,3 +1,4 @@
+id,temp_med, temp_min, temp_max, precipitation, weekend, consumption
 1,27.3,23.9,32.5,0,0,25.461
 2,27.02,24.5,33.5,0,0,28.972
 3,24.82,22.4,29.9,0,1,30.814
