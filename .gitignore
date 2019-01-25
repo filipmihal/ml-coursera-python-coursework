@@ -114,5 +114,6 @@ venv.bak/
 #custom
 venv3.5/
 ml-coursera/
+*/.idea/
 
 
